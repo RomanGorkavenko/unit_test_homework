@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.gb.unitTest.semSix.AverageValueTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-30T06:19:14" hostname="LAPTOP-F7SIRPMM" time="0.031">
+  <properties/>
+  <testcase name="averageValueList_averageValueIntegerList_successfully()" classname="ru.gb.unitTest.semSix.AverageValueTest" time="0.027"/>
+  <testcase name="averageValueList_giveAnEmptyListToMethod_throwsListIsEmptyException()" classname="ru.gb.unitTest.semSix.AverageValueTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

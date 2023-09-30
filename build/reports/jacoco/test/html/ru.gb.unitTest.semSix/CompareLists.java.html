@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CompareLists.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">unitTestsSeminarSixHomeWork</a> &gt; <a href="index.source.html" class="el_package">ru.gb.unitTest.semSix</a> &gt; <span class="el_source">CompareLists.java</span></div><h1>CompareLists.java</h1><pre class="source lang-java linenums">package ru.gb.unitTest.semSix;
+
+import java.util.List;
+
+/**
+ * Класс для сравнения среднего значения листов целых чисел.
+ */
+public class CompareLists {
+
+    /**
+     * Первый лист.
+     */
+    private final List&lt;Integer&gt; first;
+
+    /**
+     * Второй лист.
+     */
+    private final List&lt;Integer&gt; second;
+
+    /**
+     * Связь с {@link AverageValue}.
+     * Для вызова метода, вычисления среднего значения листа -
+     * {@link AverageValue#averageValueList(List)}
+     */
+    private final AverageValue averageValue;
+
+    /**
+     * Конструктор.
+     * @param first лист с целочисленными значениями.
+     * @param second лист с целочисленными значениями.
+     * @param averageValue объект класса {@link AverageValue}.
+     */
+    public CompareLists(final AverageValue averageValue,
+                        final List&lt;Integer&gt; first,
+<span class="fc" id="L35">                        final List&lt;Integer&gt; second) {</span>
+<span class="fc" id="L36">        this.first = first;</span>
+<span class="fc" id="L37">        this.second = second;</span>
+<span class="fc" id="L38">        this.averageValue = averageValue;</span>
+<span class="fc" id="L39">    }</span>
+
+
+
+    /**
+     * Метод сравнения листов.
+     * Вызывает метод {@link AverageValue#averageValueList(List)},
+     * сначала для первого листа, затем для второго.
+     * Присваивает эти значения в переменные.
+     * Сравнивает значения переменных и выводит в консоль,
+     * результат сравнения.
+     * @throws ListIsEmptyException исключение при пустом значении листа.
+     */
+    public void compareAverageValueInList() throws ListIsEmptyException {
+<span class="fc" id="L53">        double averageFirst = averageValue.averageValueList(first);</span>
+<span class="fc" id="L54">        double averageSecond = averageValue.averageValueList(second);</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">        if (averageFirst &gt; averageSecond) {</span>
+<span class="fc" id="L56">            System.out.println(&quot;Первый список имеет большее среднее значение&quot;);</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">        } else if (averageFirst == averageSecond) {</span>
+<span class="fc" id="L58">            System.out.println(&quot;Средние значения равны&quot;);</span>
+        } else {
+<span class="fc" id="L60">            System.out.println(&quot;Второй список имеет большее среднее значение&quot;);</span>
+        }
+<span class="fc" id="L62">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

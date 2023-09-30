@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\main\java\ru\gb\unitTest\semSix\AverageValue.java">
+</file>
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\main\java\ru\gb\unitTest\semSix\CompareLists.java">
+</file>
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\main\java\ru\gb\unitTest\semSix\ListIsEmptyException.java">
+</file>
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\main\java\ru\gb\unitTest\semSix\MyException.java">
+</file>
+</checkstyle>

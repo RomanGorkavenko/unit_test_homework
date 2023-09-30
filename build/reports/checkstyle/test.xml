@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\test\java\ru\gb\unitTest\semSix\AverageValueTest.java">
+<error line="31" column="10" severity="error" message="Name &apos;averageValueList_averageValueIntegerList_successfully&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="40" column="10" severity="error" message="Name &apos;averageValueList_giveAnEmptyListToMethod_throwsListIsEmptyException&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="C:\Users\482\Desktop\UnitTest\6\sem6\unitTestsSeminarSixHomeWork\src\test\java\ru\gb\unitTest\semSix\CompareListsTest.java">
+<error line="51" column="10" severity="error" message="Name &apos;compareAverageValueInList_interactionOfClasses_successfully&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="77" severity="error" message="Line is longer than 80 characters (found 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="77" column="10" severity="error" message="Name &apos;compareAverageValueInList_secondListIsLargerFirst_printingResultToConsole&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="91" severity="error" message="Line is longer than 80 characters (found 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="91" column="10" severity="error" message="Name &apos;compareAverageValueInList_firstListIsLargerSecond_printingResultToConsole&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="105" severity="error" message="Line is longer than 80 characters (found 89)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="105" column="10" severity="error" message="Name &apos;compareAverageValueInList_averageValuesOfListsAreEqual_printingResultToConsole&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>
